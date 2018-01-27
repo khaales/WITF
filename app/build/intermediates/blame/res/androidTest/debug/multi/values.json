@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "outputFile": "C:\\Users\\keilyshay\\AndroidStudioProjects\\TestKitchen\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,31 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/Users/keilyshay/.android/build-cache/aff56f66244481b28b8c17654679a4f72b8cecb6/output/res/values/values.xml",
+                    "file": "C:\\Users\\keilyshay\\.android\\build-cache\\aff56f66244481b28b8c17654679a4f72b8cecb6\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\liz\\AndroidStudioProjects\\WITF\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "C:\\Users\\liz\\.android\\build-cache\\7dcdadaced568fb243f0d5776177ad9904c5c337\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

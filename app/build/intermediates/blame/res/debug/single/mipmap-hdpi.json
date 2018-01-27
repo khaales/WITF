@@ -1,10 +1,18 @@
 [
     {
-        "merged": "/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
-        "source": "/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\keilyshay\\AndroidStudioProjects\\TestKitchen\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\keilyshay\\AndroidStudioProjects\\TestKitchen\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
-        "source": "/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "C:\\Users\\liz\\AndroidStudioProjects\\WITF\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\liz\\AndroidStudioProjects\\WITF\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\liz\\AndroidStudioProjects\\WITF\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\liz\\AndroidStudioProjects\\WITF\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\keilyshay\\AndroidStudioProjects\\TestKitchen\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\keilyshay\\AndroidStudioProjects\\TestKitchen\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     }
 ]

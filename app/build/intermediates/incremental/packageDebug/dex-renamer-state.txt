@@ -1,7 +1,7 @@
-#Sat Jan 27 10:45:29 EST 2018
-base.0=/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b3fb16343a2ea2500aa1fe38de24c0ab266efeb3
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8632964a78b56bd9b7b2fa585173aad044075189/classes.dex
-base.1=/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8632964a78b56bd9b7b2fa585173aad044075189
-file.0=/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b3fb16343a2ea2500aa1fe38de24c0ab266efeb3/classes.dex
+#Sat Jan 27 14:17:46 EST 2018
+base.0=C\:\\Users\\liz\\AndroidStudioProjects\\WITF\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_6fe69bff9ca5703ad5f3567ecfb32d213ad13e34
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\liz\\AndroidStudioProjects\\WITF\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ffbe0b8e7c7d7d0451771581e9775af0acd5be06\\classes.dex
+base.1=C\:\\Users\\liz\\AndroidStudioProjects\\WITF\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_ffbe0b8e7c7d7d0451771581e9775af0acd5be06
+file.0=C\:\\Users\\liz\\AndroidStudioProjects\\WITF\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_6fe69bff9ca5703ad5f3567ecfb32d213ad13e34\\classes.dex
