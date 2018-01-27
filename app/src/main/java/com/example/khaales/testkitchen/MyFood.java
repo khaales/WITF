@@ -45,17 +45,39 @@ public class MyFood extends AppCompatActivity {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 Map<String, Map<String, String>> map = (Map<String, Map<String, String>>) dataSnapshot.getValue();
                 final List<String> keys = new ArrayList<String>();
+                final List<String> presentfoods = new ArrayList<String>();
                 for (String key : map.keySet()) {
                     //Log.d("HELLO HERE ", key);
                     keys.add(key);
+                    //Log.d(TAG, "present value: " + map.get(key).get("Present"));
+
+                    if (map.get(key).get("Present").equals("True")) {
+                        //Log.d(TAG, "present value: " + map.get(key).get("Present"));
+                        presentfoods.add(key);
+                    }
+                    //Log.d(TAG, "foods: " + presentfoods);
+
                 }
-                String PB = map.get(keys[0].toString);
 
-                String x = map.get("Peanut Butter").get("Present");
-                Log.d(TAG, "map: " + map);
-                Log.d(TAG, x);
 
-                final ArrayAdapter adapter = new ArrayAdapter(MyFood.this, android.R.layout.simple_list_item_1, keys);
+                //final List<String> presentfoods = new ArrayList<String>();
+                //for (String food : keys) {
+                //    if (map.get(food).get("Present") == "True") {
+                //        presentfoods.add(map.get(food));
+                //    }
+                //    Log.d(TAG, "foods: " + food);
+                //}
+
+                String key1 = keys.get(0);
+                String PB = map.get(key1).get("Present");
+                Log.d(TAG, "PB map: " + PB);
+                //Log.d(TAG, keys.get(0));
+
+                //String x = map.get("Peanut Butter").get("Present");
+                //Log.d(TAG, "map: " + map);
+                //Log.d(TAG, x);
+
+                final ArrayAdapter adapter = new ArrayAdapter(MyFood.this, android.R.layout.simple_list_item_1, presentfoods);
                 mylist.setAdapter(adapter);
             }
 
