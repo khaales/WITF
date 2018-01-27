@@ -44,27 +44,18 @@ public class MyFood extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 Map<String, Map<String, String>> map = (Map<String, Map<String, String>>) dataSnapshot.getValue();
-                final List<String> list = new ArrayList<String>();
+                final List<String> keys = new ArrayList<String>();
                 for (String key : map.keySet()) {
                     //Log.d("HELLO HERE ", key);
-                    list.add(key);
+                    keys.add(key);
                 }
-                final List<String> keys = new ArrayList<String>();
-                //final List<String> values = new ArrayList<String>();
-                for (Map.Entry m : map.entrySet()) {
-                    keys.add(m.getKey().toString());
-
-                    //values.add(m.getValue().toString());
-                    //Log.d("ALL DA KEYS ", keys + "");
-                    //Log.d("ALL DA values ", values + "");
-                }
-
+                String PB = map.get(keys[0].toString);
 
                 String x = map.get("Peanut Butter").get("Present");
                 Log.d(TAG, "map: " + map);
                 Log.d(TAG, x);
 
-                final ArrayAdapter adapter = new ArrayAdapter(MyFood.this, android.R.layout.simple_list_item_1, list);
+                final ArrayAdapter adapter = new ArrayAdapter(MyFood.this, android.R.layout.simple_list_item_1, keys);
                 mylist.setAdapter(adapter);
             }
 
