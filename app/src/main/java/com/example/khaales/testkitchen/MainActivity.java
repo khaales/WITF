@@ -1,10 +1,13 @@
 package com.example.khaales.testkitchen;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -44,9 +47,16 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //FirebaseDatabase.getInstance().setPersistenceEnabled(true);
         mylist = (ListView) findViewById(R.id.listview1);
-        //mydb = FirebaseDatabase.getInstance().getReference();
+
+        Button btn = (Button) findViewById(R.id.button2);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent push = new Intent(MainActivity.this, MyFood.class);
+                startActivity(push);
+            }
+        });
 
         mAuth = FirebaseAuth.getInstance();
         mAuthListener = new FirebaseAuth.AuthStateListener() {
@@ -76,26 +86,22 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 Map<String, String> map = (Map<String, String>) dataSnapshot.getValue();
-
                 final List<String> list = new ArrayList<String>();
-                //String[] listitems = new String[list.size()];
                 for(String key : map.keySet()) {
-                    Log.d("HELLO HERE ", key);
-                    //listitems[i] = key;
+                    //Log.d("HELLO HERE ", key);
                     list.add(key);
                 }
+                final List<String> keys = new ArrayList<String>();
+                for (Map.Entry m:map.entrySet()) {
+                    keys.add(m.getKey().toString());
+                    Log.d("Hi ", m.getKey() + " " + m.getValue());
+
+                }
+
                 Log.d(TAG, list.toString());
 
                 final ArrayAdapter adapter = new ArrayAdapter(MainActivity.this, android.R.layout.simple_list_item_1, list);
                 mylist.setAdapter(adapter);
-
-
-                //Log.d(TAG, ""+item);
-
-                //Log.d(TAG, "dataSnapShot" + new JSONObject(value));
-
-                //Food food = dataSnapshot.getValue(Food.class);
-                //System.out.println("THIS IS SUPPOSED TO BE " + food.Date + " and " + food.Quantity);
             }
 
             @Override
@@ -130,5 +136,9 @@ public class MainActivity extends AppCompatActivity {
             });
         }
 
+        public void goMyFood(View view) {
+            Intent intent = new Intent(this, MyFood.class);
+            startActivity(intent);
+        }
     }
 
