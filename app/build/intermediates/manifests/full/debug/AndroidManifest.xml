@@ -37,6 +37,8 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.khaales.testkitchen.MyFood" />
+        <activity android:name="com.example.khaales.testkitchen.MyNeeds" />
+        <activity android:name="com.example.khaales.testkitchen.MyRecipes" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"

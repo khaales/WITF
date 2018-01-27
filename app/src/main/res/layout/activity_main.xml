@@ -25,22 +25,23 @@
         android:layout_alignStart="@+id/button5" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/myrecipesbutt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="My Recipes"
-        android:layout_marginLeft="31dp"
-        android:layout_marginStart="31dp"
-        android:layout_below="@+id/button4"
+        android:layout_below="@+id/myfoodbutt"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="21dp" />
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="43dp" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/myneedsbutt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="My Needs"
+        android:layout_below="@+id/editText"
         android:layout_alignLeft="@+id/button3"
         android:layout_alignStart="@+id/button3" />
 
@@ -49,8 +50,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Add"
-        android:layout_marginRight="55dp"
-        android:layout_marginEnd="55dp"
+        android:layout_marginRight="53dp"
+        android:layout_marginEnd="53dp"
         android:layout_alignBaseline="@+id/button3"
         android:layout_alignBottom="@+id/button3"
         android:layout_alignParentRight="true"

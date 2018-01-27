@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -20,19 +19,17 @@ import java.util.Map;
 
 import static android.util.Log.d;
 
-public class MyFood extends AppCompatActivity {
-    private static final String TAG = "MyFood";
+public class MyNeeds extends AppCompatActivity {
+    private static final String TAG = "MyNeeds";
     private ListView mylist;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_my_food);
-        mylist = (ListView) findViewById(R.id.listView2);
+        setContentView(R.layout.activity_my_needs);
+        mylist = (ListView) findViewById(R.id.listView3);
 
         Intent intent = getIntent();
-        String message = "hello";
-
 
         // reference database
         final FirebaseDatabase database = FirebaseDatabase.getInstance();
@@ -73,7 +70,7 @@ public class MyFood extends AppCompatActivity {
                 //Log.d(TAG, "map: " + map);
                 //Log.d(TAG, x);
 
-                final ArrayAdapter adapter = new ArrayAdapter(MyFood.this, android.R.layout.simple_list_item_1, presentfoods);
+                final ArrayAdapter adapter = new ArrayAdapter(MyNeeds.this, android.R.layout.simple_list_item_1, neededfoods);
                 mylist.setAdapter(adapter);
             }
 
@@ -104,11 +101,8 @@ public class MyFood extends AppCompatActivity {
                         Log.w(TAG, "Failed to read value.", error.toException());
                     }
                 });
-            }
-
-            ;
+            };
         });
+
     }
-
-
 }

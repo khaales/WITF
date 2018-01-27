@@ -55,6 +55,24 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(push);
             }
         });
+
+        Button needsbtn = (Button) findViewById(R.id.myneedsbutt);
+        needsbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent push = new Intent(MainActivity.this, MyNeeds.class);
+                startActivity(push);
+            }
+        });
+
+        Button recipesbtn = (Button) findViewById(R.id.myrecipesbutt);
+        recipesbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent push = new Intent(MainActivity.this, MyRecipes.class);
+                startActivity(push);
+            }
+        });
     }
 }
 

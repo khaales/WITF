@@ -84,6 +84,10 @@
         "source": "/Users/keilyshay/.android/build-cache/9995d8f6a734ddedbdc3b91b983d0fbf75d2b532/output/res/layout/abc_screen_toolbar.xml"
     },
     {
+        "merged": "/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/res/merged/debug/layout/activity_my_needs.xml",
+        "source": "/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/res/layout/activity_my_needs.xml"
+    },
+    {
         "merged": "/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
         "source": "/Users/keilyshay/.android/build-cache/9995d8f6a734ddedbdc3b91b983d0fbf75d2b532/output/res/layout/abc_screen_content_include.xml"
     },
@@ -110,6 +114,10 @@
     {
         "merged": "/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/res/merged/debug/layout/notification_template_custom_big.xml",
         "source": "/Users/keilyshay/.android/build-cache/9995d8f6a734ddedbdc3b91b983d0fbf75d2b532/output/res/layout/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/res/merged/debug/layout/activity_my_recipes.xml",
+        "source": "/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/res/layout/activity_my_recipes.xml"
     },
     {
         "merged": "/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",

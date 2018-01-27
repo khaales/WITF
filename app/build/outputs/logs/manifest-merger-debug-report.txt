@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:2:1-22:12
+ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:2:1-24:12
 	package
 		ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:3:5-46
 		INJECTED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/Andro
 		INJECTED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:5:5-20:19
+ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:5:5-22:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/keilyshay/.android/build-cache/9995d8f6a734ddedbdc3b91b983d0fbf75d2b532/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/keilyshay/.android/build-cache/1b2e84397cc5d9174d6d707362eff05e3c38304c/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/keilyshay/.android/build-cache/9bb3edcf5ec0b6d762fb7f755c64340bb373a0e0/output/AndroidManifest.xml:26:5-20
@@ -62,9 +62,17 @@ ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/Andro
 	android:name
 		ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:16:27-74
 activity#com.example.khaales.testkitchen.MyFood
-ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:19:9-53
+ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:19:9-44
 	android:name
 		ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:19:19-41
+activity#com.example.khaales.testkitchen.MyNeeds
+ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:20:9-45
+	android:name
+		ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:20:19-42
+activity#com.example.khaales.testkitchen.MyRecipes
+ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:21:9-56
+	android:name
+		ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:21:19-44
 uses-sdk
 INJECTED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/keilyshay/.android/build-cache/9995d8f6a734ddedbdc3b91b983d0fbf75d2b532/output/AndroidManifest.xml:21:5-23:78
