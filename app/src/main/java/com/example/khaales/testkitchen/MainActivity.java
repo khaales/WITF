@@ -27,6 +27,7 @@ import org.json.JSONObject;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Map;
 
 import static android.util.Log.d;
@@ -63,6 +64,8 @@ public class MainActivity extends AppCompatActivity {
             }
         };
 
+
+
         // reference database
         final FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference ref = database.getReference("/MyFood");
@@ -74,31 +77,19 @@ public class MainActivity extends AppCompatActivity {
             public void onDataChange(DataSnapshot dataSnapshot) {
                 Map<String, String> map = (Map<String, String>) dataSnapshot.getValue();
 
+                final List<String> list = new ArrayList<String>();
+                //String[] listitems = new String[list.size()];
                 for(String key : map.keySet()) {
                     Log.d("HELLO HERE ", key);
+                    //listitems[i] = key;
+                    list.add(key);
                 }
+                Log.d(TAG, list.toString());
 
-                /*
-                JSONObject item = new JSONObject(value);
-                Iterator<?> keys = item.keys();
-                ArrayList<String> mylist = new ArrayList<String>();
-                while(keys.hasNext()) {
-                    String key = (String)keys.next();
-                    mylist.add(key);
-                    //the food item or key
-                    Log.d(TAG, mylist.toString());
-                    try{
-                        if ( item.get(key) instanceof JSONObject ) {
-                            JSONObject xx = new JSONObject(item.get(key).toString());
-                            //Log.d("I AM LOOKING FOR THIS ", xx.toString());
-                        }
-                    } catch (JSONException e) {
-                            throw new RuntimeException(e);
-                    }
+                final ArrayAdapter adapter = new ArrayAdapter(MainActivity.this, android.R.layout.simple_list_item_1, list);
+                mylist.setAdapter(adapter);
 
 
-                }
-                */
                 //Log.d(TAG, ""+item);
 
                 //Log.d(TAG, "dataSnapShot" + new JSONObject(value));
