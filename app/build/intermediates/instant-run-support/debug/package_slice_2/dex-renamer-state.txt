@@ -1,4 +1,4 @@
-#Sat Jan 27 13:33:25 EST 2018
+#Sat Jan 27 14:08:13 EST 2018
 base.0=/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2
 renamed.0=classes.dex
 file.0=/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex

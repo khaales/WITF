@@ -52,7 +52,7 @@ public class MyFood extends AppCompatActivity {
                     keys.add(key);
                     //Log.d(TAG, "present value: " + map.get(key).get("Present"));
 
-                    if (map.get(key).get("Present").equals("True")) {
+                    if (map.get(key).get("Present").equals(1)) {
                         //Log.d(TAG, "present value: " + map.get(key).get("Present"));
                         presentfoods.add(key);
                     } else {

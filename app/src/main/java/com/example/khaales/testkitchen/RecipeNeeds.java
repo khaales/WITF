@@ -42,49 +42,24 @@ public class RecipeNeeds extends AppCompatActivity {
         final FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference ref = database.getReference("/MyRecipes");
 
+
         // Attach a listener to read the data at our posts reference
         ref.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                Map<String, ArrayList<String>> map = (Map<String, ArrayList<String>>) dataSnapshot.getValue();
-                final List<String> items = new ArrayList<String>();
-                final List<String> recipeneed = new ArrayList<String>();
+                final Map<String, ArrayList<String>> map = (Map<String, ArrayList<String>>) dataSnapshot.getValue();
                 Log.d(TAG, "recipe items: " + map.get(value));
-                //for (String key : map.get("Cereal").get(0)) {
-                //    items.add(key);
 
-                //}
-                //Log.d(TAG, "recipes: " + items);
-                //String A = map.get(value).toString();
-
-                /*
-                final ArrayAdapter adapter = new ArrayAdapter(RecipeNeeds.this, android.R.layout.simple_list_item_1, map.get(value))
-                {
-                    @Override
-                    public View getView(int position, View convertView, ViewGroup parent)
-                    {
-                        View itemView = super.getView(position, convertView, parent);
-                        if (getItem(position).contains("!!"))
-                            itemView.setBackgroundColor(Color.RED);
-
-                        return itemView;
-                    }
-                };
+                final ArrayAdapter adapter = new ArrayAdapter(RecipeNeeds.this, android.R.layout.simple_list_item_1, map.get(value));
                 mylist.setAdapter(adapter);
-                */
-
-                //Log.d(TAG, "map: " + map);
             }
 
             @Override
             public void onCancelled(DatabaseError databaseError) {
                 System.out.println("The read failed: " + databaseError.getCode());
-            }
-
-            ;
+            };
 
         });
-
 
     }
 }
