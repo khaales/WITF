@@ -6,18 +6,20 @@ package com.example.khaales.testkitchen;
 
 public class Food {
 
-        public String Name;
         public String Date;
+        public String Quantity;
+        public String Present;
 
         public Food(){}
-        public Food(String Name, String Date) {
-            this.Name = Name;
+        public Food(String Name, String Date, String Present) {
             this.Date = Date;
+            this.Quantity = Quantity;
+            this.Present = Present;
         }
 
         @Override
         public String toString() {
-            return this.Name + ": " + this.Date;
+            return this.Date + ": " + this.Quantity + ": " + this.Present;
         }
 
 }

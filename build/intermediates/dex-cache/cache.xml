@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/keilyshay/.android/build-cache/55734baed2b7769efd4ae6d405748cf4fc461851/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_72abb58b5845b7a9dbf27594c57ddafc6c93b26b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/keilyshay/.android/build-cache/73b3e442d5c216e9b4305a8f6e617c099d7fbeb1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ad24af3d7f6ccae4e6ef425a1fdfb23c0cd0023c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/keilyshay/.android/build-cache/1f41acca4258836503b99ef38aa194c9e3dd1aad/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="005786793d72c6deacbbbfd38177ed58e1aa6653">
+        <dex dex="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cb4219c7dd5de49ce1325e455e235c94dd7d4f4a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/keilyshay/.android/build-cache/eb9733809376eff285b72fda237cd6135b39d681/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_438467452c393aafa8cf8aa05a308c81bbf3b686/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/keilyshay/.android/build-cache/55c6de9f485b305193f842968b798119c13164f6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_839839425cd55d2c54c77f413a1b8b10b3ca17dd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/keilyshay/.android/build-cache/9aefef05bb7fa892c6ebf900250f6290d59207e4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5d9a9f22e1807f3837c4e123a7a3c77da539049b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_b3fb16343a2ea2500aa1fe38de24c0ab266efeb3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b3d0809a742c5f768c6aa9efc6decd5c1d6cd227">
+        <dex dex="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2f0011a316a277504cd97784a4f797ad9abaaa3e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/keilyshay/.android/build-cache/51b0b7dc75623de2fa0390d89415442f99f52ab5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_13bdbbb43f95144ae9409c8e3dcf0681357765bc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/keilyshay/.android/build-cache/1b2e84397cc5d9174d6d707362eff05e3c38304c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2ab156c87fe4b771f7e0a96e4bbe781009bffddb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/keilyshay/.android/build-cache/46777d203fd2c8b0a77349c1035f62a00303f50c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ad1b1518d59a25176dee546c68f1ac688ec3a434/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/keilyshay/.android/build-cache/e252d89d7dff67adadc1fba7e072e54d8de7b07d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_70728f1ecb46dfc8cafbce277390572c8409e203/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/keilyshay/.android/build-cache/674665f1d6267dcf10c31198d2f401d4aeac53f3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a511c684ea4c2cf31a3377d51e7677cb76696e07">
+        <dex dex="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8052375fecd17181ff3b25fd8573393469a7cdd8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/keilyshay/.android/build-cache/8f426fe7fef21f6990d2fe7a5c778eecca57a438/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fc3c99879896513744b3848f609c8d3b394aca4e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/keilyshay/.android/build-cache/56c26757f824a5a31eb6a97d9d1179291b9ed7ef/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_919db390403fb4fbb25e673aad0426b999de6778/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/keilyshay/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_58f5e2e481847b491e7d6428fc666f22b1cdc957/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/keilyshay/.android/build-cache/2045410e886317cf7eef05660e597c998c0eecb0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7c5dd15311e91f336a2ff7f09c03340f7d724e21/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c27d3898891736ecc46f3b2e20bacd9b879a2e5c">
+        <dex dex="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8632964a78b56bd9b7b2fa585173aad044075189/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/keilyshay/.android/build-cache/cb4d66306bb9f8f157de6d48d3d487876baec93e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7113302c965566b66df46c6ca75ea301576114a5">
+        <dex dex="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_65e0cfea84cb2dc57c219747f30ccea27525191c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/keilyshay/.android/build-cache/9bb3edcf5ec0b6d762fb7f755c64340bb373a0e0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d1edbf54c9a2e3e2edf5a0ecbf99b1c5cb3f979b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/keilyshay/.android/build-cache/43db5106803070b41d495ad557f7fe571bbe560f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a1af78e173937520a8f6b79638cfe4388b36b2a7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/keilyshay/.android/build-cache/f89edcb46cba30d4832affb9da71f52de04e76b8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="51a11c41a08f099a204e1b8dcc04f27217de50ec">
+        <dex dex="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b15558a1f99463e138148878e17e3eae83c8bd66/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/keilyshay/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.1/constraint-layout-solver-1.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1ad79631209e77b0a2730fc112b4cc0c66a95132">
+        <dex dex="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.1_2bc06e35d084de3276ea2124314f3a6e5f50aa73/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/keilyshay/.android/build-cache/9995d8f6a734ddedbdc3b91b983d0fbf75d2b532/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_eec6a78e5e8ad8c337b98122178fed18fc3585b4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/keilyshay/.android/build-cache/32cb1a33b20fcfb1149e46b34dce27ebb330c54a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fca3f29ea8f24c116087d58e5a6f75b89fb44145/classes.dex" />
+    </item>
+
+</items>
