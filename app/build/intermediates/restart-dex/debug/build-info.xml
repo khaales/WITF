@@ -6,26 +6,32 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.1"
-    timestamp="1517062218089"
+    timestamp="1517063155053"
     token="5850141367192940519"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="555" />
+        duration="999" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="101" />
+        duration="78" />
     <task
         name="verifier"
-        duration="40" />
+        duration="20" />
 
     <artifact
         location="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
         type="SPLIT" />
+    <artifact
+        location="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/outputs/apk/app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
@@ -102,27 +108,17 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1517060718471"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1517061974320"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1517062218089"
+        timestamp="1517063155053"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
+        <artifact
+            location="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
