@@ -1,0 +1,33 @@
+{
+  "MyFood": {
+    "Chicken": {
+      "Date": "2018-01-01",
+      "Quantity": "3lb",
+      "Present": "Hi"
+    },
+    "Apple": {
+      "Date": "2018-01-01",
+      "Quantity": "3 apples"
+    },
+    "Peanut Butter": {
+      "Date": "2018-01-01",
+      "Quantity": "1 jar"
+    },
+    "Peaches": {
+      "Date": "2018-01-01",
+      "Quantity": "1lb"
+    },
+    "Milk": {
+      "Date": "2018-02-02",
+      "Quantity": "1gal"
+    },
+    "Flour": {
+      "Date": "2018-02-02",
+      "Quantity": "16oz"
+    },
+    "Cheese Puff": {
+      "Date": "2018-02-02",
+      "Quantity": "1bag"
+    }
+  }
+}
