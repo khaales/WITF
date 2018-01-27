@@ -50,7 +50,17 @@ public class RecipeNeeds extends AppCompatActivity {
                 final Map<String, ArrayList<String>> map = (Map<String, ArrayList<String>>) dataSnapshot.getValue();
                 Log.d(TAG, "recipe items: " + map.get(value));
 
-                final ArrayAdapter adapter = new ArrayAdapter(RecipeNeeds.this, android.R.layout.simple_list_item_1, map.get(value));
+                final ArrayAdapter adapter = new ArrayAdapter(RecipeNeeds.this, android.R.layout.simple_list_item_1, map.get(value)){
+                    @Override
+                    public View getView(int position, View convertView, ViewGroup parent)
+                    {
+                        View itemView = super.getView(position, convertView, parent);
+                        if (position == 1)
+                            itemView.setBackgroundColor(Color.RED);
+
+                        return itemView;
+                    }
+                };;
                 mylist.setAdapter(adapter);
             }
 
