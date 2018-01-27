@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".MyFood" />
         <activity android:name=".MyNeeds" />
-        <activity android:name=".MyRecipes"></activity>
+        <activity android:name=".MyRecipes" />
+        <activity android:name=".RecipeNeeds"></activity>
     </application>
 
 </manifest>

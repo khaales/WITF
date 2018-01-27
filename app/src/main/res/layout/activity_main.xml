@@ -21,20 +21,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="My Food"
+        android:layout_alignParentBottom="true"
         android:layout_alignLeft="@+id/button5"
-        android:layout_alignStart="@+id/button5" />
+        android:layout_alignStart="@+id/button5"
+        android:layout_marginBottom="201dp" />
 
     <Button
         android:id="@+id/myrecipesbutt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="My Recipes"
-        android:layout_below="@+id/myfoodbutt"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/myneedsbutt"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="28dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="43dp" />
+        android:layout_alignParentStart="true" />
 
     <Button
         android:id="@+id/myneedsbutt"
@@ -42,18 +44,19 @@
         android:layout_height="wrap_content"
         android:text="My Needs"
         android:layout_below="@+id/editText"
-        android:layout_alignLeft="@+id/button3"
-        android:layout_alignStart="@+id/button3" />
+        android:layout_alignRight="@+id/myrecipesbutt"
+        android:layout_alignEnd="@+id/myrecipesbutt"
+        android:layout_marginTop="12dp" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Add"
-        android:layout_marginRight="53dp"
-        android:layout_marginEnd="53dp"
-        android:layout_alignBaseline="@+id/button3"
-        android:layout_alignBottom="@+id/button3"
+        android:layout_marginRight="54dp"
+        android:layout_marginEnd="54dp"
+        android:layout_alignBaseline="@+id/myrecipesbutt"
+        android:layout_alignBottom="@+id/myrecipesbutt"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 

@@ -8,12 +8,12 @@
         "source": "/Users/keilyshay/.android/build-cache/9995d8f6a734ddedbdc3b91b983d0fbf75d2b532/output/res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_ic_googleplayservices.png",
-        "source": "/Users/keilyshay/.android/build-cache/4d04b4582c3ffdc8f3852937e1193bf0d8f25a98/output/res/drawable-mdpi-v4/common_ic_googleplayservices.png"
-    },
-    {
         "merged": "/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png",
         "source": "/Users/keilyshay/.android/build-cache/9995d8f6a734ddedbdc3b91b983d0fbf75d2b532/output/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_ic_googleplayservices.png",
+        "source": "/Users/keilyshay/.android/build-cache/4d04b4582c3ffdc8f3852937e1193bf0d8f25a98/output/res/drawable-mdpi-v4/common_ic_googleplayservices.png"
     },
     {
         "merged": "/Users/keilyshay/AndroidStudioProjects/TestKitchen/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_full_open_on_phone.png",
