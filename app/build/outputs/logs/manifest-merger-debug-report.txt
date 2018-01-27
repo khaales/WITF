@@ -1,0 +1,247 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:2:1-22:12
+	package
+		ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:3:5-46
+		INJECTED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:5:5-20:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/keilyshay/.android/build-cache/9995d8f6a734ddedbdc3b91b983d0fbf75d2b532/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/keilyshay/.android/build-cache/1b2e84397cc5d9174d6d707362eff05e3c38304c/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/keilyshay/.android/build-cache/9bb3edcf5ec0b6d762fb7f755c64340bb373a0e0/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] /Users/keilyshay/.android/build-cache/cb4d66306bb9f8f157de6d48d3d487876baec93e/output/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:10.0.1] /Users/keilyshay/.android/build-cache/e252d89d7dff67adadc1fba7e072e54d8de7b07d/output/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-core:9.0.2] /Users/keilyshay/.android/build-cache/c51ff50ce40b94f503aa29fc5371e280e21a6e61/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:9.0.2] /Users/keilyshay/.android/build-cache/f89edcb46cba30d4832affb9da71f52de04e76b8/output/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] /Users/keilyshay/.android/build-cache/674665f1d6267dcf10c31198d2f401d4aeac53f3/output/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/keilyshay/.android/build-cache/43db5106803070b41d495ad557f7fe571bbe560f/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-messaging:9.0.0] /Users/keilyshay/.android/build-cache/1f41acca4258836503b99ef38aa194c9e3dd1aad/output/AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-common:10.0.1] /Users/keilyshay/.android/build-cache/73b3e442d5c216e9b4305a8f6e617c099d7fbeb1/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/keilyshay/.android/build-cache/51b0b7dc75623de2fa0390d89415442f99f52ab5/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/keilyshay/.android/build-cache/eb9733809376eff285b72fda237cd6135b39d681/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.1] /Users/keilyshay/.android/build-cache/2045410e886317cf7eef05660e597c998c0eecb0/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/keilyshay/.android/build-cache/9aefef05bb7fa892c6ebf900250f6290d59207e4/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/keilyshay/.android/build-cache/55734baed2b7769efd4ae6d405748cf4fc461851/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/keilyshay/.android/build-cache/8f426fe7fef21f6990d2fe7a5c778eecca57a438/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/keilyshay/.android/build-cache/46777d203fd2c8b0a77349c1035f62a00303f50c/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/keilyshay/.android/build-cache/32cb1a33b20fcfb1149e46b34dce27ebb330c54a/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.khaales.testkitchen.MainActivity
+ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:16:27-74
+activity#com.example.khaales.testkitchen.MyFood
+ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:19:9-53
+	android:name
+		ADDED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml:19:19-41
+uses-sdk
+INJECTED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/keilyshay/.android/build-cache/9995d8f6a734ddedbdc3b91b983d0fbf75d2b532/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/keilyshay/.android/build-cache/1b2e84397cc5d9174d6d707362eff05e3c38304c/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/keilyshay/.android/build-cache/9bb3edcf5ec0b6d762fb7f755c64340bb373a0e0/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] /Users/keilyshay/.android/build-cache/cb4d66306bb9f8f157de6d48d3d487876baec93e/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth:10.0.1] /Users/keilyshay/.android/build-cache/e252d89d7dff67adadc1fba7e072e54d8de7b07d/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-core:9.0.2] /Users/keilyshay/.android/build-cache/c51ff50ce40b94f503aa29fc5371e280e21a6e61/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.0.2] /Users/keilyshay/.android/build-cache/f89edcb46cba30d4832affb9da71f52de04e76b8/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] /Users/keilyshay/.android/build-cache/674665f1d6267dcf10c31198d2f401d4aeac53f3/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/keilyshay/.android/build-cache/43db5106803070b41d495ad557f7fe571bbe560f/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-messaging:9.0.0] /Users/keilyshay/.android/build-cache/1f41acca4258836503b99ef38aa194c9e3dd1aad/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-database:10.0.1] /Users/keilyshay/.android/build-cache/55c6de9f485b305193f842968b798119c13164f6/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-database-connection:10.0.1] /Users/keilyshay/.android/build-cache/56c26757f824a5a31eb6a97d9d1179291b9ed7ef/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-common:10.0.1] /Users/keilyshay/.android/build-cache/73b3e442d5c216e9b4305a8f6e617c099d7fbeb1/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/keilyshay/.android/build-cache/51b0b7dc75623de2fa0390d89415442f99f52ab5/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/keilyshay/.android/build-cache/eb9733809376eff285b72fda237cd6135b39d681/output/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:25.3.1] /Users/keilyshay/.android/build-cache/2045410e886317cf7eef05660e597c998c0eecb0/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/keilyshay/.android/build-cache/9aefef05bb7fa892c6ebf900250f6290d59207e4/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/keilyshay/.android/build-cache/55734baed2b7769efd4ae6d405748cf4fc461851/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/keilyshay/.android/build-cache/8f426fe7fef21f6990d2fe7a5c778eecca57a438/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/keilyshay/.android/build-cache/46777d203fd2c8b0a77349c1035f62a00303f50c/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] /Users/keilyshay/.android/build-cache/32cb1a33b20fcfb1149e46b34dce27ebb330c54a/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/keilyshay/.android/build-cache/9995d8f6a734ddedbdc3b91b983d0fbf75d2b532/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/keilyshay/AndroidStudioProjects/TestKitchen/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/keilyshay/.android/build-cache/9995d8f6a734ddedbdc3b91b983d0fbf75d2b532/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/keilyshay/.android/build-cache/1b2e84397cc5d9174d6d707362eff05e3c38304c/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/keilyshay/.android/build-cache/9bb3edcf5ec0b6d762fb7f755c64340bb373a0e0/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/keilyshay/.android/build-cache/2045410e886317cf7eef05660e597c998c0eecb0/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/keilyshay/.android/build-cache/9aefef05bb7fa892c6ebf900250f6290d59207e4/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/keilyshay/.android/build-cache/55734baed2b7769efd4ae6d405748cf4fc461851/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/keilyshay/.android/build-cache/8f426fe7fef21f6990d2fe7a5c778eecca57a438/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/keilyshay/.android/build-cache/46777d203fd2c8b0a77349c1035f62a00303f50c/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/keilyshay/.android/build-cache/32cb1a33b20fcfb1149e46b34dce27ebb330c54a/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/keilyshay/.android/build-cache/9995d8f6a734ddedbdc3b91b983d0fbf75d2b532/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/keilyshay/.android/build-cache/9995d8f6a734ddedbdc3b91b983d0fbf75d2b532/output/AndroidManifest.xml:26:9-47
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-analytics:9.0.2] /Users/keilyshay/.android/build-cache/f89edcb46cba30d4832affb9da71f52de04e76b8/output/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] /Users/keilyshay/.android/build-cache/674665f1d6267dcf10c31198d2f401d4aeac53f3/output/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] /Users/keilyshay/.android/build-cache/f89edcb46cba30d4832affb9da71f52de04e76b8/output/AndroidManifest.xml:21:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:9.0.2] /Users/keilyshay/.android/build-cache/f89edcb46cba30d4832affb9da71f52de04e76b8/output/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] /Users/keilyshay/.android/build-cache/674665f1d6267dcf10c31198d2f401d4aeac53f3/output/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] /Users/keilyshay/.android/build-cache/f89edcb46cba30d4832affb9da71f52de04e76b8/output/AndroidManifest.xml:22:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:9.0.2] /Users/keilyshay/.android/build-cache/f89edcb46cba30d4832affb9da71f52de04e76b8/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] /Users/keilyshay/.android/build-cache/674665f1d6267dcf10c31198d2f401d4aeac53f3/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] /Users/keilyshay/.android/build-cache/f89edcb46cba30d4832affb9da71f52de04e76b8/output/AndroidManifest.xml:24:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.0.2] /Users/keilyshay/.android/build-cache/f89edcb46cba30d4832affb9da71f52de04e76b8/output/AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] /Users/keilyshay/.android/build-cache/674665f1d6267dcf10c31198d2f401d4aeac53f3/output/AndroidManifest.xml:28:7-34:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] /Users/keilyshay/.android/build-cache/f89edcb46cba30d4832affb9da71f52de04e76b8/output/AndroidManifest.xml:30:11-33
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] /Users/keilyshay/.android/build-cache/f89edcb46cba30d4832affb9da71f52de04e76b8/output/AndroidManifest.xml:29:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.0.2] /Users/keilyshay/.android/build-cache/f89edcb46cba30d4832affb9da71f52de04e76b8/output/AndroidManifest.xml:31:9-33:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.0.2] /Users/keilyshay/.android/build-cache/f89edcb46cba30d4832affb9da71f52de04e76b8/output/AndroidManifest.xml:32:11-77
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] /Users/keilyshay/.android/build-cache/f89edcb46cba30d4832affb9da71f52de04e76b8/output/AndroidManifest.xml:32:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.0.2] /Users/keilyshay/.android/build-cache/f89edcb46cba30d4832affb9da71f52de04e76b8/output/AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] /Users/keilyshay/.android/build-cache/674665f1d6267dcf10c31198d2f401d4aeac53f3/output/AndroidManifest.xml:36:7-39:37
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] /Users/keilyshay/.android/build-cache/f89edcb46cba30d4832affb9da71f52de04e76b8/output/AndroidManifest.xml:38:11-33
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] /Users/keilyshay/.android/build-cache/f89edcb46cba30d4832affb9da71f52de04e76b8/output/AndroidManifest.xml:39:11-35
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] /Users/keilyshay/.android/build-cache/f89edcb46cba30d4832affb9da71f52de04e76b8/output/AndroidManifest.xml:37:11-82
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/keilyshay/.android/build-cache/43db5106803070b41d495ad557f7fe571bbe560f/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/keilyshay/.android/build-cache/43db5106803070b41d495ad557f7fe571bbe560f/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/keilyshay/.android/build-cache/43db5106803070b41d495ad557f7fe571bbe560f/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/keilyshay/.android/build-cache/43db5106803070b41d495ad557f7fe571bbe560f/output/AndroidManifest.xml:19:19-85
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:9.0.0] /Users/keilyshay/.android/build-cache/1f41acca4258836503b99ef38aa194c9e3dd1aad/output/AndroidManifest.xml:24:9-30:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:9.0.0] /Users/keilyshay/.android/build-cache/1f41acca4258836503b99ef38aa194c9e3dd1aad/output/AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.0.0] /Users/keilyshay/.android/build-cache/1f41acca4258836503b99ef38aa194c9e3dd1aad/output/AndroidManifest.xml:25:13-82
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:9.0.0] /Users/keilyshay/.android/build-cache/1f41acca4258836503b99ef38aa194c9e3dd1aad/output/AndroidManifest.xml:27:13-29:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:9.0.0] /Users/keilyshay/.android/build-cache/1f41acca4258836503b99ef38aa194c9e3dd1aad/output/AndroidManifest.xml:27:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:9.0.0] /Users/keilyshay/.android/build-cache/1f41acca4258836503b99ef38aa194c9e3dd1aad/output/AndroidManifest.xml:28:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.0.0] /Users/keilyshay/.android/build-cache/1f41acca4258836503b99ef38aa194c9e3dd1aad/output/AndroidManifest.xml:28:25-75
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:23:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:25:5-26:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:25:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:28:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:32:9-41:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:35:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:33:13-78
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:36:13-40:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:37:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:37:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:38:17-86
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:38:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:39:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:39:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:46:13-86
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:51:9-57:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:52:13-77
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:54:13-56:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:54:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:55:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] /Users/keilyshay/.android/build-cache/d6abb4ce887a2e487738b6996f6fd2af3a0c0e6c/output/AndroidManifest.xml:55:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/keilyshay/.android/build-cache/73b3e442d5c216e9b4305a8f6e617c099d7fbeb1/output/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/keilyshay/.android/build-cache/73b3e442d5c216e9b4305a8f6e617c099d7fbeb1/output/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/keilyshay/.android/build-cache/73b3e442d5c216e9b4305a8f6e617c099d7fbeb1/output/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/keilyshay/.android/build-cache/73b3e442d5c216e9b4305a8f6e617c099d7fbeb1/output/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/keilyshay/.android/build-cache/73b3e442d5c216e9b4305a8f6e617c099d7fbeb1/output/AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.0.1] /Users/keilyshay/.android/build-cache/eb9733809376eff285b72fda237cd6135b39d681/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] /Users/keilyshay/.android/build-cache/eb9733809376eff285b72fda237cd6135b39d681/output/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] /Users/keilyshay/.android/build-cache/eb9733809376eff285b72fda237cd6135b39d681/output/AndroidManifest.xml:20:20-65
