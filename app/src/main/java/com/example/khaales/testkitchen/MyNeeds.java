@@ -58,16 +58,16 @@ public class MyNeeds extends AppCompatActivity {
                     //Log.d(TAG, "foods: " + presentfoods);
 
                 }
-                //Log.d(TAG, "presentfoods: " + presentfoods);
+                Log.d(TAG, "presentfoods: " + presentfoods);
                 Log.d(TAG, "neededfoods: " + neededfoods);
 
                 String key1 = keys.get(0);
                 String PB = map.get(key1).get("Present");
-                //Log.d(TAG, "PB map: " + PB);
+                Log.d(TAG, "PB map: " + PB);
                 //Log.d(TAG, keys.get(0));
 
                 //String x = map.get("Peanut Butter").get("Present");
-                Log.d(TAG, "map: " + map);
+                //Log.d(TAG, "map: " + map);
                 //Log.d(TAG, x);
 
                 final ArrayAdapter adapter = new ArrayAdapter(MyNeeds.this, android.R.layout.simple_list_item_1, neededfoods);
