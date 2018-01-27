@@ -6,13 +6,13 @@ package com.example.khaales.testkitchen;
 
 public class Food {
 
-        public String Name;
         public String Date;
+        public String Quantity;
 
         public Food(){}
         public Food(String Name, String Date) {
-            this.Name = Name;
             this.Date = Date;
+            this.Quantity = Quantity;
         }
 
         @Override

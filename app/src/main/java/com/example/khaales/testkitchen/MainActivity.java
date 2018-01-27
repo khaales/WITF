@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
         // reference database
         final FirebaseDatabase database = FirebaseDatabase.getInstance();
-        DatabaseReference ref = database.getReference("/Food");
+        DatabaseReference ref = database.getReference("/MyNeeds/MyFood/Apple");
 
         // Attach a listener to read the data at our posts reference
         ref.addValueEventListener(new ValueEventListener() {
@@ -69,9 +69,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
-
-
 
         public void onDataChange(){
             // Write a message to the database
